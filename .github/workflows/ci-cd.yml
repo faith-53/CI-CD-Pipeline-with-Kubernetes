@@ -24,7 +24,6 @@ jobs:
 
       - name: Run tests
         run: |
-          cd app
           npm test
 
       - name: Log in to Docker Hub
