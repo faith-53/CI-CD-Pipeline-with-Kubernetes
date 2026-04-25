@@ -19,7 +19,6 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd app
           npm install
 
       - name: Run tests
