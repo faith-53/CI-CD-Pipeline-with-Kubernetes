@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: devops-app
-          image: YOUR_DOCKERHUB_USERNAME/devops-k8s-app:latest
+          image: faith53/devops-k8s-app:latest
           ports:
             - containerPort: 3000
